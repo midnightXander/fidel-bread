@@ -94,7 +94,7 @@ i{
     margin: 1rem;
     margin-right: 0;
     margin-bottom:100px;
-    width: 100%;
+    width: 80%;
     /* overflow: scroll; */
     overflow: hidden;
     display: grid;
@@ -285,12 +285,13 @@ i{
         }
     }
     .bread-section{
-        margin: 0;
+        margin: 1rem;
         float: left;
         grid-template-columns: 1fr;
-        grid-template-rows:1fr 1fr  ;
+        /* grid-template-rows:1fr 1fr 1fr ; */
         .card{
             margin: 1rem 0;
+            padding: 50px;
         }
     }
     .nav-links{
