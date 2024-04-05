@@ -15,7 +15,8 @@ body{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    box-sizing: border-box;
+    /* margin-left: 50px;
+    margin-right: 0; */
     
 }
 
@@ -94,9 +95,9 @@ i{
     margin: 1rem;
     margin-right: 0;
     margin-bottom:100px;
-    width: 80%;
+    width: 100%;
     /* overflow: scroll; */
-    overflow: hidden;
+    overflow-x: hidden; 
     display: grid;
     float: left;
     grid-template-columns: 1fr 1fr 1fr;
